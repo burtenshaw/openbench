@@ -1,5 +1,26 @@
 # Changelog
 
+## [0.3.0](https://github.com/groq/openbench/compare/v0.2.0...v0.3.0) (2025-08-12)
+
+
+### Features
+
+* add --debug flag to eval-retry command ([b26afaa](https://github.com/groq/openbench/commit/b26afaad31986e184c2695c6384cb1736ac0dfcb))
+* add 'openbench' as alternative CLI entry point ([#48](https://github.com/groq/openbench/issues/48)) ([68b3c5b](https://github.com/groq/openbench/commit/68b3c5b4f8b8927dd5c6c8f68e25f831e9a5a222))
+* add Cerebras and SambaNova model providers ([1c61f59](https://github.com/groq/openbench/commit/1c61f597ddc801caf3f085fa29fd35c50fed7b37))
+* add Nebius model provider ([#47](https://github.com/groq/openbench/issues/47)) ([ba2ec19](https://github.com/groq/openbench/commit/ba2ec19ee1ac522133ed4dcd9b102d64a69933ff))
+* add Nous Research model provider ([#49](https://github.com/groq/openbench/issues/49)) ([32dd815](https://github.com/groq/openbench/commit/32dd815002f9996c82bae001fdfc9b0ac7e09a0d))
+
+
+### Chores
+
+* update version ([8b7bbe7](https://github.com/groq/openbench/commit/8b7bbe74f14f67b2877cec3a6b3ae5e3a861a79a))
+
+
+### Refactor
+
+* move task loading from registry to config and update imports ([de6eea2](https://github.com/groq/openbench/commit/de6eea298d25be81be72b3c4986e72dd783c39cb))
+
 ## [0.2.0](https://github.com/groq/openbench/compare/v0.1.1...v0.2.0) (2025-08-11)
 
 
